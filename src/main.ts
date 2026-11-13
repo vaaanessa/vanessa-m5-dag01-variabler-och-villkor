@@ -2,6 +2,14 @@ import "./kalibrering";
 
 console.log("Hej från Kafé Kardemumma");
 
+const kafeNamn: string = "Kafé Kardemumma";
+const prisBulle: number = 35;
+const prisKaffe: number = 32;
+let antalBullar: number = 2;
+let antalKaffe: number = 1;
+
+console.log(kafeNamn);
+
 // Dag 1: Variabler, typer och villkor. Följ README.md steg för steg.
 // Resultatet syns i Console (F12). Spara, så laddas sidan om av sig själv.
 // Röda understrykningar i VS Code är TypeScript som varnar. Håll musen över dem och läs.
