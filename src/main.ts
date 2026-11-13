@@ -1,7 +1,9 @@
 import "./kalibrering";
 
+// STEG 1
 console.log("Hej från Kafé Kardemumma");
 
+// STEG 2
 const kafeNamn: string = "Kafé Kardemumma";
 const prisBulle: number = 35;
 const prisKaffe: number = 32;
@@ -9,6 +11,17 @@ let antalBullar: number = 2;
 let antalKaffe: number = 1;
 
 console.log(kafeNamn);
+
+// STEG 3
+let name: string = "Vanessa";
+let age: number = 36;
+let result: boolean = true;
+let x: undefined;
+let y: null = null;
+
+//Jag tror att typeof y visar null.
+
+console.log(typeof name, typeof age, typeof result, typeof x, typeof y);
 
 // Dag 1: Variabler, typer och villkor. Följ README.md steg för steg.
 // Resultatet syns i Console (F12). Spara, så laddas sidan om av sig själv.
