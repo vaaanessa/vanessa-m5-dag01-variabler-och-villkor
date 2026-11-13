@@ -23,6 +23,14 @@ let y: null = null;
 
 console.log(typeof name, typeof age, typeof result, typeof x, typeof y);
 
+// STEG 4
+
+const summa = antalBullar * prisBulle + antalKaffe * prisKaffe;
+const momsDel = (summa * 0.12) / 1.12;
+
+console.log(`Summa: ${summa} kr`);
+console.log(`Varav moms (12 %): ${momsDel.toFixed(2)} kr`);
+
 // Dag 1: Variabler, typer och villkor. Följ README.md steg för steg.
 // Resultatet syns i Console (F12). Spara, så laddas sidan om av sig själv.
 // Röda understrykningar i VS Code är TypeScript som varnar. Håll musen över dem och läs.
