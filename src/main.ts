@@ -41,6 +41,23 @@ if (ärStudent === true) {
 }
 console.log(`Att betala: ${attBetala.toFixed(2)} kr`);
 
+// STEG 6
+
+const veckodag: string = "lördag";
+const klockslag: number = 8;
+let öppet: boolean;
+
+if (veckodag === "lördag" || veckodag === "söndag") {
+  öppet = klockslag >= 9 && klockslag < 16;
+} else {
+  öppet = klockslag >= 7 && klockslag < 18;
+}
+
+if (öppet === true) {
+  console.log("Öppet just nu: ja");
+} else {
+  console.log("Öppet just nu: nej");
+}
 // Dag 1: Variabler, typer och villkor. Följ README.md steg för steg.
 // Resultatet syns i Console (F12). Spara, så laddas sidan om av sig själv.
 // Röda understrykningar i VS Code är TypeScript som varnar. Håll musen över dem och läs.
