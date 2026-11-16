@@ -18,6 +18,7 @@ if (result > 10) {
 for (let i = 1; i <= 5; i++) {
   console.log(i);
 }
+// @ts-expect-error
 
 function number(a) {
   return a * 2;

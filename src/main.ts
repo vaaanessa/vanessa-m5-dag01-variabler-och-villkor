@@ -13,11 +13,11 @@ let antalKaffe: number = 1;
 console.log(kafeNamn);
 
 // STEG 3
-let name: string = "Vanessa";
-let age: number = 36;
-let result: boolean = true;
+const name: string = "Vanessa";
+const age: number = 36;
+const result: boolean = true;
 let x: undefined;
-let y: null = null;
+const y: null = null;
 
 //Jag tror att typeof y visar null.
 
@@ -58,6 +58,22 @@ if (öppet === true) {
 } else {
   console.log("Öppet just nu: nej");
 }
+
+// STEG 7
+
+console.log("5" + 3);
+
+// @ts-expect-error
+console.log("5" - 3);
+
+// @ts-expect-error
+console.log(true + 1);
+console.log(0.1 + 0.2);
+
+// @ts-expect-error
+console.log("" === 0);
+console.log(null == undefined);
+
 // Dag 1: Variabler, typer och villkor. Följ README.md steg för steg.
 // Resultatet syns i Console (F12). Spara, så laddas sidan om av sig själv.
 // Röda understrykningar i VS Code är TypeScript som varnar. Håll musen över dem och läs.
